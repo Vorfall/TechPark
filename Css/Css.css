@@ -1,3 +1,7 @@
+/*
+div{
+    border:1px solid red;
+}*/
 @font-face  { 
     font-family: "PF Din Text Cond Pro";
     src: url('../fonts/PF-Din-Text-Cond-Pro.woff') format("woff"), 
@@ -121,7 +125,7 @@ body {
     margin: 0%; 
 }
 .conteiner {
-    margin: 0 360px;
+    margin: 0 18.5%;
     max-width: 1280px;
     position: relative;
     /*border: 2px solid #b92525;*/
@@ -131,18 +135,22 @@ header {
     height: 120px;
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
 }
 .leftBlock {
     display: flex;
 }
 .rigtBlock {
     display: flex;
+    flex-shrink:0;
 }
 .call {
     display: flex;
+    flex-shrink:0;
 }
 .pass {
     width: calc(100% - 715px);
+    flex-shrink:0;
 }
 .logo>img {
     width: 100px;
@@ -156,6 +164,7 @@ header {
 .name {
     margin-top: 7px;
     margin-left: 30px;
+    flex-shrink:0;
     
 }
 .bigFont {
@@ -167,22 +176,24 @@ header {
 .tel {
     font-size:25px;
     font-weight: 600;
+    flex-shrink:0;
 }
 .LogoCall>img {
-    width: 30px;
-    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
     margin-left: 30px;
 }
 .callMe {
     margin-top: 5px;
     margin-left: 20px;
+    flex-shrink:0;
     font-size:18px; 
 }
 /*      Menu      */
 .menu {
     position: absolute;
-    width: 100%;
-  height: 70px;
+    max-width: 100%;
+    max-height: 70px;
     margin-top: -30px;
     display: flex;
     
@@ -259,6 +270,9 @@ width: 970px;
     position: absolute;
     left:13%;
     top:230px;
+}
+.map>img{
+    min-width: 100%;
 }
 .buttomBlock {
     margin-top: 440px;
@@ -358,9 +372,9 @@ width: 970px;
     margin-top:600px;
     margin-left: -360px;
     margin-right: -360px;
-    width: 1920px;
+    
     height: 600px;
-    background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
+   /* background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;*/
     background-size: cover;
 
 }
@@ -493,6 +507,8 @@ height: 800px;
     justify-content: space-between;
 }
 .partner {
+    max-height: 20px;
+   
     padding: 5px 10px;
     margin:  0px 20px;
     margin-top: 10px;
@@ -522,18 +538,23 @@ height: 800px;
     justify-content: space-between;
 }
 .nameDate {
+    flex-shrink:0;
     font-size: 16px;
 }
 .acsess {
+    flex-shrink:0;
     font-size: 16px;
 }
 .logoMKB {
+    flex-shrink:0;
     margin-top: 15px;
 }
 .information {
+    flex-shrink:0;
     text-align: right;
     font-size: 18px;
 }
 .numberPlusTimeJob {
+    flex-shrink:0;
     text-align: right;
 }
