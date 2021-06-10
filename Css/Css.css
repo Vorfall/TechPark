@@ -263,11 +263,13 @@ header {
 }
 
 .firstRowText {
+    flex-shrink: 0;
     font-size: 45px;
     color: #FFC301;
 }
 
 .SecondRowtext {
+    flex-shrink: 0;
     margin-top: 5px;
     font-size: 35px;
 }
@@ -351,6 +353,7 @@ header {
 }
 
 .lineTextCollage {
+    flex-shrink: 0;
     display: flex;
 }
 
@@ -446,11 +449,13 @@ header {
 }
 
 .SecondRowtextrev {
+    flex-shrink: 0;
     font-size: 35px;
     font-weight: 700;
 }
 
 .firstRowTextRev {
+    flex-shrink: 0;
     font-size: 35px;
     color: #FFC301;
     font-weight: 700;
