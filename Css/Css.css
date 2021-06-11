@@ -307,12 +307,14 @@ header {
     margin-top: 440px;
     padding-bottom: 50px;
 }
+*/
 
 .BottomText {
     font-weight: 600;
     font-size: 25px;
 }
 
+/*
 .Butten {
     margin-top: 10px;
     padding: 15px 25px;
@@ -364,12 +366,14 @@ header {
     top: 385px;
     left: 768px;
 }
+*/
 
 .lineTextCollage {
     flex-shrink: 0;
     display: flex;
 }
 
+/*
 .collage {
     margin-top: 160px;
     height: 1300px;
@@ -423,6 +427,7 @@ header {
     background-size: cover;
 }
 */
+
 .lightBlockDecription {
     margin-top: 150px;
 }
@@ -439,13 +444,10 @@ header {
     padding-bottom: 130px;
 }
 
-
 .miniHeaderName {
     font-weight: 700;
     font-size: 30px;
 }
-
-
 
 .imgBildingBack {
     background-image: url(../Img/MaskGroup.png);
@@ -458,12 +460,15 @@ header {
 .description {
     margin-top: 35px;
     font-size: 19px;
-}/*
+}
+
+/*
 
 .rightBlockText {
     margin-left: 68px;
 }
 */
+
 .SecondRowtextrev {
     flex-shrink: 0;
     font-size: 35px;
@@ -516,12 +521,11 @@ header {
     justify-content: center;
 }
 
-/*
-
 .promo {
     margin-top: 130px;
 }
 
+/*
 .imgPromo>img {
     width: 1200px;
 }
@@ -529,6 +533,7 @@ header {
 .imgPromo {
     position: relative;
 }
+*/
 
 .textPromo {
     position: absolute;
@@ -552,16 +557,18 @@ header {
     background-color: #231F20;
 }
 
+/*
+
 .topFuter {
     display: flex;
     justify-content: space-between;
-}
-
+}/*
 .fourPositionPartner {
     margin-left: 85px;
     display: flex;
     justify-content: space-between;
 }
+*/
 
 .partner {
     max-height: 20px;
@@ -617,7 +624,7 @@ header {
 .numberPlusTimeJob {
     flex-shrink: 0;
     text-align: right;
-}*/
+}
 
 @media screen and (max-width: 660px) {
     * {
@@ -708,20 +715,24 @@ header {
     .point {
         display: none;
     }
-    .logoPrezent>.blockCollage {
+    /*.logoPrezent>.blockCollage {
         padding-top: 0px;
-    }
+    }*/
     .map {
-        display: none;
-    }
-    .lineTextCollage {
         display: none;
     }
     .infoBox {
         display: none;
     }
-    .logoPrezent {}
-    .prezent {}
+  /*  .logoPrezent {
+        position: absolute;
+        left: 3250px;
+    }
+    .prezent {
+        position: absolute;
+        left: 350px;
+        top: 143px;
+    }*/
     /*collage*/
     .Collage {
         display: flex;
@@ -745,9 +756,9 @@ header {
         margin-left: 25px;
     }
     .buttonWhat {
+        margin-right: 25px;
         margin-left: 25px;
         width: initial;
-       
     }
     .blocImgPart {
         margin-top: 10px;
@@ -764,31 +775,72 @@ header {
     }
     .miniHeaderName {
         margin-top: -120px;
-        
         text-align: center;
     }
-    .description{
+    .description {
         margin-left: 25px;
     }
     .topFuter>img {
         max-width: 20%;
     }
-  
     .blockInfo {
         flex-direction: column;
-        
-            padding-bottom: 130px;
-        }
+        padding-bottom: 130px;
     }
     .imgBildingBack {
-     
         width: 100%;
-      
     }
-    
+    .text {
+        display: none;
+        position: relative;
+    }
+  /*  .prezentplLogo {
+        display: flex;
+        width: 100%;
+    }
+    .logoPrezent {
+        position: absolute;
+        left: 280px;
+        top: 125px;
+    }
+    .logoPrezent>img {
+        width: 70%;
+    }*/
+    .textCollage {
+        padding-top: 45px;
+        width: 100%;
+        text-align: center;
+    }
+    .Butten {
+        display: none;
+    }
+    .BottomText {
+        display: none;
+    }
+    .textPromo {
+        display: none;
+    }
+    #ImgPromoWeight {
+        display: none;
+    }
+    .buttonPromo {
+        margin-top: -190px;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        left: 0px;
+    }
+    .emailInf {}
+    /*
     /*burger Himburger*/
     #menu__toggle {
         opacity: 0;
+    }
+    .promo {
+        position: relative;
+    }
+    .bottomFuter {
+        flex-direction: column;
     }
     #menu__toggle:checked~.menu__btn>span {
         transform: rotate(45deg);
