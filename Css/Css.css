@@ -137,6 +137,8 @@ header {
 .rigtBlock {
     display: flex;
     flex-shrink: 0;
+    position: absolute;
+    left: 900px;
 }
 
 .call {
@@ -254,6 +256,8 @@ header {
 
 .prezentplLogo {
     display: flex;
+    position: absolute;
+    left: 1090px;
 }
 
 .text {
@@ -597,4 +601,77 @@ header {
 .numberPlusTimeJob {
     flex-shrink: 0;
     text-align: right;
+}
+
+@media screen and (max-width: 1660px) {
+    .conteiner{
+        margin:0 100px;
+    }
+    .rigtBlock{
+        
+        left:850px;
+    }
+    .menu{
+        margin-right: 20px;
+    }
+    .prezentplLogo{
+        position:absolute;
+        left:1050px;
+    }
+    .Collage{
+        position: absolute;
+        left: calc(100% - 1100px);
+    }
+    .blocImgPart{
+        position:absolute;
+        left:0px;
+    
+    }
+    .promo{
+        margin-top: 430px;
+        margin-left: 30px;
+    }
+    .acsess{
+    
+        max-height: 20px;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .map {
+        left: 0%;
+    }
+    .Collage{
+      
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .conteiner {
+        margin: 0 20px;
+    }
+    
+    .partner {
+        max-height: 15%;
+    }
+    .textPromo {
+     
+        top: 20px;
+    
+    
+    }
+    .rigtBlock{
+        left:670px;
+    
+    }
+    
+    .prezentplLogo{
+       
+        left:870px;
+    }
+    .menu{
+        min-width: 300px;
+    }
 }
