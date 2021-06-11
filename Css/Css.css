@@ -307,12 +307,12 @@ header {
     margin-top: 440px;
     padding-bottom: 50px;
 }
-
+*/
 .BottomText {
     font-weight: 600;
     font-size: 25px;
 }
-
+/*
 .Butten {
     margin-top: 10px;
     padding: 15px 25px;
@@ -364,12 +364,12 @@ header {
     top: 385px;
     left: 768px;
 }
-
+*/
 .lineTextCollage {
     flex-shrink: 0;
     display: flex;
 }
-
+/*
 .collage {
     margin-top: 160px;
     height: 1300px;
@@ -471,6 +471,7 @@ header {
 }
 
 .firstRowTextRev {
+    
     flex-shrink: 0;
     font-size: 35px;
     color: #FFC301;
@@ -587,7 +588,7 @@ header {
     margin-top: 50px;
     margin-bottom: 25px;
 }
-
+*/
 .bottomFuter {
     display: flex;
     justify-content: space-between;
@@ -617,7 +618,7 @@ header {
 .numberPlusTimeJob {
     flex-shrink: 0;
     text-align: right;
-}*/
+}
 
 @media screen and (max-width: 660px) {
     * {
@@ -714,14 +715,19 @@ header {
     .map {
         display: none;
     }
-    .lineTextCollage {
-        display: none;
-    }
+
     .infoBox {
         display: none;
     }
-    .logoPrezent {}
-    .prezent {}
+    .logoPrezent {
+        position: absolute;
+        left: 3250px;
+    }
+    .prezent {
+        position: absolute;
+        left: 350px;
+        top:143px;
+    }
     /*collage*/
     .Collage {
         display: flex;
@@ -745,6 +751,7 @@ header {
         margin-left: 25px;
     }
     .buttonWhat {
+        margin-right:  25px;
         margin-left: 25px;
         width: initial;
        
@@ -779,13 +786,36 @@ header {
         
             padding-bottom: 130px;
         }
-    }
+    
     .imgBildingBack {
      
         width: 100%;
       
     }
+    .text{
+        display: none;
+        position: relative;
     
+    }
+    .prezentplLogo{
+        
+        display: flex;
+        width: 100%;
+    }
+    .logoPrezent{
+       position: absolute;
+       left:280px;
+       top:125px;
+            }
+    .logoPrezent>img{
+width: 70%;
+    }
+    .Butten{
+        display: none;
+    }
+    .BottomText {
+        display: none;
+    }
     /*burger Himburger*/
     #menu__toggle {
         opacity: 0;
