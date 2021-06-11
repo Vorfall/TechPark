@@ -308,19 +308,13 @@ header {
     padding-bottom: 50px;
 }
 */
-<<<<<<< HEAD
 
-=======
->>>>>>> 9013ae7c2f0d17a01a8c9ebc2994a0306ad64aa6
 .BottomText {
     font-weight: 600;
     font-size: 25px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9013ae7c2f0d17a01a8c9ebc2994a0306ad64aa6
-/*
+
 .Butten {
     margin-top: 10px;
     padding: 15px 25px;
@@ -729,15 +723,12 @@ header {
     .infoBox {
         display: none;
     }
-  /*  .logoPrezent {
-        position: absolute;
-        left: 3250px;
+    .logoPrezent {
+        display: none;
     }
     .prezent {
-        position: absolute;
-        left: 350px;
-        top: 143px;
-    }*/
+       display: none;
+    }
     /*collage*/
     .Collage {
         display: flex;
