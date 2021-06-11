@@ -422,7 +422,7 @@ header {
      background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
     background-size: cover;
 }
-
+*/
 .lightBlockDecription {
     margin-top: 150px;
 }
@@ -439,10 +439,13 @@ header {
     padding-bottom: 130px;
 }
 
+
 .miniHeaderName {
     font-weight: 700;
     font-size: 30px;
 }
+
+
 
 .imgBildingBack {
     background-image: url(../Img/MaskGroup.png);
@@ -455,12 +458,12 @@ header {
 .description {
     margin-top: 35px;
     font-size: 19px;
-}
+}/*
 
 .rightBlockText {
     margin-left: 68px;
 }
-
+*/
 .SecondRowtextrev {
     flex-shrink: 0;
     font-size: 35px;
@@ -500,16 +503,20 @@ header {
     background-color: #231F20;
 }
 
+/*
 .bottomBloc {
     padding-top: 100px;
     height: 800px;
 }
+*/
 
 .blocImgPart {
     margin-top: 80px;
     display: flex;
     justify-content: center;
 }
+
+/*
 
 .promo {
     margin-top: 130px;
@@ -704,7 +711,6 @@ header {
     .logoPrezent>.blockCollage {
         padding-top: 0px;
     }
-   
     .map {
         display: none;
     }
@@ -714,12 +720,8 @@ header {
     .infoBox {
         display: none;
     }
-     .logoPrezent {
-       
-    }
-    .prezent {
-        
-    }
+    .logoPrezent {}
+    .prezent {}
     /*collage*/
     .Collage {
         display: flex;
@@ -735,17 +737,55 @@ header {
         width: 90%;
     }
     /*rectangle*/
-    .imgGroupBlock{
+    .imgGroupBlock {
         display: none;
     }
     /* 2 colum block*/
+    .descriptionBlock {
+        margin-left: 25px;
+    }
+    .buttonWhat {
+        margin-left: 25px;
+        width: initial;
+       
+    }
+    .blocImgPart {
+        margin-top: 10px;
+        flex-direction: column;
+    }
     /*footer + partner*/
     .topFuter {
+        padding-top: 20px;
+        margin-top: 50px;
         max-width: 20%;
+    }
+    .advantages {
+        display: none;
+    }
+    .miniHeaderName {
+        margin-top: -120px;
+        
+        text-align: center;
+    }
+    .description{
+        margin-left: 25px;
     }
     .topFuter>img {
         max-width: 20%;
     }
+  
+    .blockInfo {
+        flex-direction: column;
+        
+            padding-bottom: 130px;
+        }
+    }
+    .imgBildingBack {
+     
+        width: 100%;
+      
+    }
+    
     /*burger Himburger*/
     #menu__toggle {
         opacity: 0;
