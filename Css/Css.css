@@ -639,12 +639,30 @@ header {
 }
 
 @media screen and (max-width: 1290px) {
+    .Collage{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .imgBilding>img{
+      
+        width: 100%;
+    }
+    .menu{
+        justify-self: center;
+        flex-direction: column;
+    }
     .map {
         left: 0%;
     }
     .Collage{
       
         left: 0px;
+    }
+    .blockInfo{
+        flex-direction: column;
+    }
+    .blocImgPart{
+        flex-direction: column;
     }
 }
 
@@ -675,3 +693,12 @@ header {
         min-width: 300px;
     }
 }
+
+
+
+
+
+
+
+
+/*/*  DElitBLICK*/
