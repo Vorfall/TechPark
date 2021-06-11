@@ -176,11 +176,14 @@ header {
     font-size: 17px;
 }
 */
+
 .tel {
     font-size: 25px;
     font-weight: 600;
     flex-shrink: 0;
-}/*
+}
+
+/*
 
 .LogoCall>img {
     max-width: 30px;
@@ -269,6 +272,7 @@ header {
     height: 140px;
     font-weight: 600;
 }
+*/
 
 .firstRowText {
     flex-shrink: 0;
@@ -282,6 +286,7 @@ header {
     font-size: 35px;
 }
 
+/*
 .logoPrezent {
     margin-top: -27px;
     height: 66;
@@ -616,7 +621,7 @@ header {
     }
     /*header + menu*/
     header {
-       /* margin-bottom: 70px;*/
+        /* margin-bottom: 70px;*/
         padding-bottom: 5px;
     }
     .pass {
@@ -626,8 +631,9 @@ header {
         height: 85px;
         ;
         position: fixed;
-        background-color: #9EA3A6;
+        background-color: #ffffff;
         z-index: 1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
     .leftBlock {
         display: flex;
@@ -683,8 +689,36 @@ header {
         display: flex;
     }
     /*block map*/
-    .blockCollage {
+    .firstRowText {
+        padding-top: 2%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    .SecondRowtext {
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    .point {
+        display: none;
+    }
+    .logoPrezent>.blockCollage {
         padding-top: 0px;
+    }
+   
+    .map {
+        display: none;
+    }
+    .lineTextCollage {
+        display: none;
+    }
+    .infoBox {
+        display: none;
+    }
+     .logoPrezent {
+       
+    }
+    .prezent {
+        
     }
     /*collage*/
     .Collage {
@@ -700,8 +734,10 @@ header {
         margin-top: 5%;
         width: 90%;
     }
-   
     /*rectangle*/
+    .imgGroupBlock{
+        display: none;
+    }
     /* 2 colum block*/
     /*footer + partner*/
     .topFuter {
@@ -767,13 +803,13 @@ header {
         margin: 0;
         padding: 80px 0;
         list-style: none;
-        background-color: #ECEFF1;
+        background-color: #ffffff;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
         transition-duration: .25s;
     }
     .menu__item {
         display: block;
-        padding: 12px 24px;
+        padding: 10px 24px;
         color: #333;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
@@ -784,6 +820,6 @@ header {
     }
     .menu__item:hover {
         z-index: 4;
-        background-color: #CFD8DC;
+        background-color: #ffffff;
     }
 }
