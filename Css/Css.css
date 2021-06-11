@@ -113,15 +113,15 @@ body {
     padding: 0%;
     margin: 0%;
 }
-
+/*
 .conteiner {
     margin: 0 18.5%;
     max-width: 1280px;
     position: relative;
-    /*border: 2px solid #b92525;*/
+  
 }
 
-/*      HEADER      */
+
 
 header {
     height: 120px;
@@ -194,7 +194,7 @@ header {
     font-size: 18px;
 }
 
-/*      Menu      */
+
 
 .menu {
     flex-shrink: 0;
@@ -410,7 +410,7 @@ header {
     margin-left: -360px;
     margin-right: -360px;
     height: 600px;
-    /* background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;*/
+     background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -601,104 +601,199 @@ header {
 .numberPlusTimeJob {
     flex-shrink: 0;
     text-align: right;
-}
+}*/
 
-@media screen and (max-width: 1660px) {
-    .conteiner{
-        margin:0 100px;
-    }
-    .rigtBlock{
-        
-        left:850px;
-    }
-    .menu{
-        margin-right: 20px;
-    }
-    .prezentplLogo{
-        position:absolute;
-        left:1050px;
-    }
-    .Collage{
-        position: absolute;
-        left: calc(100% - 1100px);
-    }
-    .blocImgPart{
-        position:absolute;
-        left:0px;
+@media screen and (max-width: 660px) {
     
+   *{
+   /* background-color: rgb(182, 195, 236);*/
     }
-    .promo{
-        margin-top: 430px;
-        margin-left: 30px;
-    }
-    .acsess{
-    
-        max-height: 20px;
-        flex-shrink: 0;
-    }
-}
-
-@media screen and (max-width: 1290px) {
-    .Collage{
-        flex-direction: column;
-        max-width: 100%;
-    }
-    .imgBilding>img{
-      
+    img{
         width: 100%;
     }
-    .menu{
-        justify-self: center;
-        flex-direction: column;
+ 
+    /*header + menu*/
+    header{
+        margin-bottom: 50px;
+        padding-bottom: 25px;
     }
-    .map {
-        left: 0%;
+    .pass{
+        display: none;
     }
-    .Collage{
+    .leftBlock{
+    display: flex;    
+    justify-content: space-around;
+    }
+    .name{
+        text-align: right;
+        margin: 5%;
+        margin-top: 9%;
+        font-weight: 700;
+        font-size: 130%;
+        
+    }
+    .logo{
+        margin: 5%;
+        width: 50%;
+    }
+    .logo>img{
+        max-width: 100%;
+    }
+    .callMe{
+        margin-left: -30px;
+    }
+    .LogoCall{
+     margin-top: -4px;
+    }
+    .LogoCall>img{
+        max-width: 40%;
+    }
+    .littleFonr{
       
-        left: 0px;
     }
-    .blockInfo{
-        flex-direction: column;
-    }
-    .blocImgPart{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .conteiner {
-        margin: 0 20px;
-    }
-    
-    .partner {
-        max-height: 15%;
-    }
-    .textPromo {
-     
-        top: 20px;
-    
-    
-    }
+   
     .rigtBlock{
-        left:670px;
-    
+        display: flex;
+        justify-content: space-between;
+        margin: -15px 5%;
+        font-size: 120%;
     }
-    
-    .prezentplLogo{
+    .call{
+        display: flex;
+    }
+    /*block map*/
+
+
+    /*collage*/
+
+    .Collage{
+        display: flex;
+        flex-direction: column;
        
-        left:870px;
     }
-    .menu{
-        min-width: 300px;
+    .leftColum,.rightColum{
+        justify-content: center;
+     }
+    .imgBilding>img{
+        margin:0 5%px;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
     }
+    /*rectangle*/
+
+
+    /* 2 colum block*/
+
+
+    /*footer + partner*/
+
+    .topFuter{
+       
+        max-width: 20%;
+
+    }
+    .topFuter>img{
+        max-width: 20%;
+
+    }
+
+
+   /*burger Himburger*/
+   #menu__toggle {
+    opacity: 0;
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu {
+    visibility: visible;
+    left: 0;
+  }
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #616161;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+  
+    width: 300px;
+    height: 100%;
+  
+    margin: 0;
+    padding: 80px 0;
+  
+    list-style: none;
+  
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  
+    transition-duration: .25s;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+  
+    color: #333;
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  
+    text-decoration: none;
+  
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  
 }
 
-
-
-
-
-
-
-
-/*/*  DElitBLICK*/
