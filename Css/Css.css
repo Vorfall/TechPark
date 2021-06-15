@@ -120,8 +120,8 @@ body {
     max-width: 1280px;
     position: relative;
   
-}/*
-
+}
+/*
 
 
 header {
@@ -190,7 +190,7 @@ header {
     max-height: 30px;
     margin-left: 30px;
 }
-
+*/
 .callMe {
     margin-top: 5px;
     margin-left: 20px;
@@ -198,7 +198,7 @@ header {
     font-size: 18px;
 }
 
-
+/*
 
 .menu {
     flex-shrink: 0;
@@ -249,11 +249,11 @@ header {
     background-color: #F9F9F9;
 }
 
-/*
+
 
 .blockCollage {
-    height: 860px;
-}
+    padding-bottom: 55px;
+}/*
 
 .contentTextPlusPowent {
     padding-top: 115px;
@@ -314,7 +314,6 @@ header {
     font-size: 25px;
 }
 
-
 .Butten {
     margin-top: 10px;
     padding: 15px 25px;
@@ -366,16 +365,18 @@ header {
     top: 385px;
     left: 768px;
 }
-*/
-.lineTextCollage {
+
+ .lineTextCollage {
     flex-shrink: 0;
     display: flex;
+    
 }
+
 /*
 .collage {
     margin-top: 160px;
     height: 1300px;
-}
+}*/
 
 .lineOr {
     border-left: 5px solid #FFC301;
@@ -424,7 +425,7 @@ header {
      background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
     background-size: cover;
 }
-*/
+
 
 .lightBlockDecription {
     margin-top: 150px;
@@ -460,12 +461,12 @@ header {
     font-size: 19px;
 }
 
-/*
+
 
 .rightBlockText {
     margin-left: 68px;
 }
-*/
+
 
 .SecondRowtextrev {
     flex-shrink: 0;
@@ -474,7 +475,6 @@ header {
 }
 
 .firstRowTextRev {
-    
     flex-shrink: 0;
     font-size: 35px;
     color: #FFC301;
@@ -507,12 +507,11 @@ header {
     background-color: #231F20;
 }
 
-/*
+
 .bottomBloc {
     padding-top: 100px;
     height: 800px;
 }
-*/
 
 .blocImgPart {
     margin-top: 80px;
@@ -524,7 +523,7 @@ header {
     margin-top: 130px;
 }
 
-/*
+
 .imgPromo>img {
     width: 1200px;
 }
@@ -532,7 +531,7 @@ header {
 .imgPromo {
     position: relative;
 }
-*/
+
 
 .textPromo {
     position: absolute;
@@ -556,18 +555,18 @@ header {
     background-color: #231F20;
 }
 
-/*
+
 
 .topFuter {
     display: flex;
     justify-content: space-between;
-}/*
+}
 .fourPositionPartner {
     margin-left: 85px;
     display: flex;
     justify-content: space-between;
 }
-*/
+
 
 .partner {
     max-height: 20px;
@@ -593,8 +592,8 @@ header {
     margin-top: 50px;
     margin-bottom: 25px;
 }
-*/
-.bottomFuter {
+
+*/ .bottomFuter {
     display: flex;
     justify-content: space-between;
 }
@@ -626,23 +625,19 @@ header {
 }
 
 @media screen and (max-width: 660px) {
-    
+      
 .conteiner {
     margin: 0 ;
     max-width: 100%;
     position: relative;
   
-}/*
-
-    * {
-        /* background-color: rgb(182, 195, 236);*/
-    }
+}
     img {
         width: 100%;
     }
-    /*header + menu*/
+   
     header {
-        /* margin-bottom: 70px;*/
+        
         padding-bottom: 5px;
     }
     .pass {
@@ -685,6 +680,13 @@ header {
         position: fixed;
     }
     .callMe {
+    
+            margin-top: 0;
+            margin-left: 0;
+            flex-shrink: 0;
+          
+    
+        
         margin-left: -30px;
     }
     .LogoCall {
@@ -735,14 +737,19 @@ header {
         display: none;
     }
     .prezent {
-       display: none;
+        display: none;
     }
     /*collage*/
     .Collage {
         display: flex;
         flex-direction: column;
     }
+    .leftColum{
+            margin-top: -80px;
+    }
+
     .leftColum, .rightColum {
+
         justify-content: center;
     }
     .imgBilding>img {
@@ -769,7 +776,6 @@ header {
         flex-direction: column;
     }
     /*footer + partner*/
-  
     .advantages {
         display: none;
     }
@@ -780,7 +786,6 @@ header {
     .description {
         margin-left: 25px;
     }
-   
     .blockInfo {
         flex-direction: column;
         padding-bottom: 130px;
@@ -788,25 +793,23 @@ header {
     .imgBildingBack {
         width: 100%;
     }
-    .text{
+    .text {
         display: none;
         position: relative;
-    
     }
-    .prezentplLogo{
-        
+    .prezentplLogo {
         display: flex;
         width: 100%;
     }
-    .logoPrezent{
-       position: absolute;
-       left:280px;
-       top:125px;
-            }
-    .logoPrezent>img{
-width: 70%;
+    .logoPrezent {
+        position: absolute;
+        left: 280px;
+        top: 125px;
     }
-    .Butten{
+    .logoPrezent>img {
+        width: 70%;
+    }
+    .Butten {
         display: none;
     }
     .BottomText {
@@ -825,37 +828,36 @@ width: 70%;
         padding: 10px 0;
         left: 0px;
     }
-    .emailInf, .adress {margin-right: 20px;}
-    .topFuter>img, .logoKR>img{
+    .emailInf, .adress {
+        margin-right: 20px;
+    }
+    .topFuter>img, .logoKR>img {
         max-width: 25%;
     }
-    .topFuter{
+    .topFuter {
         padding-top: 20px;
         margin-top: 50px;
-    
- 
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
-    .logoKR{
+    .logoKR {
         display: none;
     }
-    #imgPromoWith{
+    #imgPromoWith {
         display: none;
     }
-
-    .numberPlusTimeJob{
+    .numberPlusTimeJob {
         margin: 0 30px;
     }
-    .fourPositionPartner{
+    .fourPositionPartner {
         display: flex;
         flex-wrap: wrap;
         margin-left: 10px;
         margin-top: -85px;
         /*flex-direction: column;*/
     }
-    .information{
+    .information {
         width: 100%;
         margin-right: 15px;
         display: flex;
@@ -942,5 +944,25 @@ width: 70%;
     .menu__item:hover {
         z-index: 4;
         background-color: #ffffff;
+    }
+    .bottomBloc {
+        padding-top: 0;
+        height: 100%;
+    }
+    
+.rightBlockText {
+    margin-left: 0;
+}
+    .lineOr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .firstname {
+        display: none;
+    }
+    .bigFont {
+        margin-top: 30px;
     }
 }
