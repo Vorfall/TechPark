@@ -192,6 +192,7 @@ header {
     font-size: 18px;
 }
 
+/*
 .menu {
     flex-shrink: 0;
     position: absolute;
@@ -212,6 +213,31 @@ header {
     border-radius: 5px 0px 0px 5px;
     width: 970px;
 }
+*/
+/*
+
+.rigtBlock {
+    display: flex;
+    flex-shrink: 0;
+    position: absolute;
+    left: 900px;
+}
+
+
+
+*/
+.orang {
+    width: 230px;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+    border: 2px solid #FFC301;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #FFC301;
+}
+
+
+
 
 .stand {
     padding-left: 20px;
@@ -225,28 +251,11 @@ header {
 .rigt {
     margin-right: 40px;
 }
-/*
-
-.rigtBlock {
-    display: flex;
-    flex-shrink: 0;
-    position: absolute;
-    left: 900px;
-}
-*/
-
 
 /*
-.orang {
-    width: 230px;
-    padding: 20px;
-    text-align: center;
-    flex-shrink: 0;
-    border: 2px solid #FFC301;
-    border-radius: 0px 5px 5px 0px;
-    background-color: #FFC301;
-}
-*/
+
+
+
 /*
 .collage {
     margin-top: 160px;
@@ -956,6 +965,15 @@ header {
         position: absolute;
        right: 10%;
     }
+    
+.left {
+    margin-left: 0px;
+}
+
+.rigt {
+    margin-right: 00px;
+}
+
 }
 
 @media screen and (max-width: 500px) {
