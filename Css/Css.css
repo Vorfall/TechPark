@@ -141,7 +141,7 @@ header {
     position: absolute;
     left: 900px;
 }
-*/
+
 .call {
     display: flex;
     flex-shrink: 0;
@@ -151,11 +151,11 @@ header {
     width: calc(100% - 715px);
     flex-shrink: 0;
 }
-/*
+
 .logo>img {
     width: 100px;
 }
-*/
+
 .line {
     border-left: 2px solid #F0F0F0;
     height: 50px;
@@ -175,7 +175,7 @@ header {
 .littleFonr {
     font-size: 17px;
 }
-
+*/
 
 .tel {
     font-size: 25px;
@@ -253,7 +253,7 @@ header {
 
 .blockCollage {
     padding-bottom: 55px;
-}
+}/*
 
 .contentTextPlusPowent {
     padding-top: 115px;
