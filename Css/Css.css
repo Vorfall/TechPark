@@ -2,12 +2,14 @@
 div{
     border:1px solid red;
 }*/
-a{
-    color:black;
+
+a {
+    color: black;
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
 }
+
 @font-face {
     font-family: "PF Din Text Cond Pro";
     src: url('../fonts/PF-Din-Text-Cond-Pro.woff') format("woff"), url('../fonts/PF-Din-Text-Cond-Pro.ttf') format("truetype");
@@ -202,7 +204,6 @@ header {
     display: flex;
 }
 
-
 .standartBorder {
     flex-shrink: 0;
     justify-content: space-around;
@@ -214,7 +215,6 @@ header {
     border-radius: 5px 0px 0px 5px;
     width: 970px;
 }
-
 
 .rigtBlock {
     display: flex;
@@ -906,7 +906,7 @@ header {
         z-index: 3;
         top: 0;
         left: -100%;
-        width: 300px;
+        width: 270px;
         height: 100%;
         margin: 0;
         padding: 80px 0;
@@ -917,7 +917,7 @@ header {
     }
     .menu__item {
         display: block;
-        padding: 10px 24px;
+        padding: 10px 4px;
         color: #333;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
@@ -968,18 +968,16 @@ header {
         justify-content: space-around;
         padding: 20px;
         display: block;
- border:0px solid white;
- 
+        border: 0px solid white;
         width: 50px;
     }
     .rigtBlock {
         display: block;
-       /* flex-shrink: 0;
+        /* flex-shrink: 0;
         position: absolute;
         right: -235px;
         /*left: 900px;*/
     }
-    
 }
 
 @media screen and (max-width: 500px) {
