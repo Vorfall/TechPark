@@ -897,7 +897,7 @@ header {
         width: 26px;
         height: 26px;
         cursor: pointer;
-        z-index: 1;
+        z-index: 4;
     }
     .menu__btn>span, .menu__btn>span::before, .menu__btn>span::after {
         display: block;
@@ -919,6 +919,7 @@ header {
         display: block;
         position: fixed;
         visibility: hidden;
+        z-index:3;
         top: 0;
         left: -100%;
         width: 300px;
