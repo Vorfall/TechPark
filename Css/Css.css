@@ -2,7 +2,12 @@
 div{
     border:1px solid red;
 }*/
-
+a{
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
 @font-face {
     font-family: "PF Din Text Cond Pro";
     src: url('../fonts/PF-Din-Text-Cond-Pro.woff') format("woff"), url('../fonts/PF-Din-Text-Cond-Pro.ttf') format("truetype");
@@ -197,7 +202,7 @@ header {
     display: flex;
 }
 
-/*
+
 .standartBorder {
     flex-shrink: 0;
     justify-content: space-around;
@@ -209,15 +214,13 @@ header {
     border-radius: 5px 0px 0px 5px;
     width: 970px;
 }
-*/
-
 
 
 .rigtBlock {
     display: flex;
     flex-shrink: 0;
     position: absolute;
-    right: 22px;
+    right: -80px;
     /*left: 900px;*/
 }
 
@@ -271,7 +274,7 @@ header {
 .prezentplLogo {
     display: flex;
     position: absolute;
-    left: 1090px;
+    left: 980px;
 }
 
 .text {
@@ -943,7 +946,6 @@ header {
     .lineOr {
         display: none;
     }
-
     .call {
         position: absolute;
         right: 10%;
@@ -961,6 +963,23 @@ header {
         flex-shrink: 0;
         right: 45px;
     }
+    .standartBorder {
+        flex-shrink: 0;
+        justify-content: space-around;
+        padding: 20px;
+        display: block;
+ border:0px solid white;
+ 
+        width: 50px;
+    }
+    .rigtBlock {
+        display: block;
+       /* flex-shrink: 0;
+        position: absolute;
+        right: -235px;
+        /*left: 900px;*/
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
