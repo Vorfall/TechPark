@@ -131,17 +131,7 @@ header {
     display: flex;
 }
 
-/*
 
-.rigtBlock {
-    display: flex;
-    flex-shrink: 0;
-    position: absolute;
-    left: 900px;
-}
-*/
-
-/*
 .call {
     display: flex;
     flex-shrink: 0;
@@ -171,7 +161,7 @@ header {
     flex-shrink: 0;
 }
 
-/*
+
 .bigFont {
     font-size: 16px;
 }
@@ -179,7 +169,7 @@ header {
 .littleFonr {
     font-size: 17px;
 }
-*/
+
 
 .tel {
     font-size: 25px;
@@ -187,7 +177,7 @@ header {
     flex-shrink: 0;
 }
 
-/*
+
 
 .LogoCall>img {
     max-width: 30px;
@@ -201,8 +191,6 @@ header {
     flex-shrink: 0;
     font-size: 18px;
 }
-
-/*
 
 .menu {
     flex-shrink: 0;
@@ -237,7 +225,18 @@ header {
 .rigt {
     margin-right: 40px;
 }
+/*
 
+.rigtBlock {
+    display: flex;
+    flex-shrink: 0;
+    position: absolute;
+    left: 900px;
+}
+*/
+
+
+/*
 .orang {
     width: 230px;
     padding: 20px;
@@ -248,7 +247,11 @@ header {
     background-color: #FFC301;
 }
 */
-
+/*
+.collage {
+    margin-top: 160px;
+    height: 1300px;
+}*/
 .contentGrayBack {
     background-color: #F9F9F9;
 }
@@ -257,8 +260,7 @@ header {
     padding-bottom: 55px;
 }
 
-/*
-*/
+
 .contentTextPlusPowent {
     padding-top: 115px;
     display: flex;
@@ -375,11 +377,7 @@ header {
     display: flex;
 }
 
-/*
-.collage {
-    margin-top: 160px;
-    height: 1300px;
-}*/
+
 
 .lineOr {
     border-left: 5px solid #FFC301;
@@ -675,7 +673,7 @@ header {
         margin-top: 0;
         margin-left: 0;
         flex-shrink: 0;
-        margin-left: -30px;
+       
     }
     .LogoCall {
         margin-top: -4px;
@@ -951,8 +949,10 @@ header {
     .tel{
         position: absolute;
         left: 20px;
+        font-size: 22px;
     }
     .call{
+        
         position: absolute;
        right: 10%;
     }
@@ -964,5 +964,10 @@ header {
     }
     .bigFont {
         margin-top: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .LogoCall>img{
+        display: none;
     }
 }
