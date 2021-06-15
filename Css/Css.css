@@ -114,13 +114,13 @@ body {
     margin: 0%;
 }
 
-/*
+
 .conteiner {
     margin: 0 18.5%;
     max-width: 1280px;
     position: relative;
   
-}
+}/*
 
 
 
@@ -626,6 +626,14 @@ header {
 }
 
 @media screen and (max-width: 660px) {
+    
+.conteiner {
+    margin: 0 ;
+    max-width: 100%;
+    position: relative;
+  
+}/*
+
     * {
         /* background-color: rgb(182, 195, 236);*/
     }
