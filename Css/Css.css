@@ -395,10 +395,6 @@ header {
     padding: 20px;
 }
 
-.imgBilding>img {
-    height: 450px;
-}
-
 .advantages {
     height: 1300px;
 }
@@ -958,6 +954,7 @@ header {
         display: none;
     }
 }
+
 
 @media screen and (max-width: 500px) {
     .firstname {
