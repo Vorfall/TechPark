@@ -114,15 +114,11 @@ body {
     margin: 0%;
 }
 
-
 .conteiner {
     margin: 0 18.5%;
     max-width: 1280px;
     position: relative;
-  
 }
-/*
-
 
 header {
     height: 120px;
@@ -135,17 +131,24 @@ header {
     display: flex;
 }
 
+/*
+
 .rigtBlock {
     display: flex;
     flex-shrink: 0;
     position: absolute;
     left: 900px;
 }
+*/
 
+/*
 .call {
     display: flex;
     flex-shrink: 0;
 }
+/**/
+
+/**/
 
 .pass {
     width: calc(100% - 715px);
@@ -168,6 +171,7 @@ header {
     flex-shrink: 0;
 }
 
+/*
 .bigFont {
     font-size: 16px;
 }
@@ -249,12 +253,12 @@ header {
     background-color: #F9F9F9;
 }
 
-
-
 .blockCollage {
     padding-bottom: 55px;
-}/*
+}
 
+/*
+*/
 .contentTextPlusPowent {
     padding-top: 115px;
     display: flex;
@@ -272,7 +276,7 @@ header {
     height: 140px;
     font-weight: 600;
 }
-*/
+
 
 .firstRowText {
     flex-shrink: 0;
@@ -366,10 +370,9 @@ header {
     left: 768px;
 }
 
- .lineTextCollage {
+.lineTextCollage {
     flex-shrink: 0;
     display: flex;
-    
 }
 
 /*
@@ -418,10 +421,9 @@ header {
     margin-left: -360px;
     margin-right: -360px;
     height: 600px;
-     background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
+    background: #ccc url(../Img/BildingBeck.png) 50% 50% no-repeat;
     background-size: cover;
 }
-
 
 .lightBlockDecription {
     margin-top: 150px;
@@ -457,12 +459,9 @@ header {
     font-size: 19px;
 }
 
-
-
 .rightBlockText {
     margin-left: 68px;
 }
-
 
 .SecondRowtextrev {
     flex-shrink: 0;
@@ -503,7 +502,6 @@ header {
     background-color: #231F20;
 }
 
-
 .bottomBloc {
     padding-top: 100px;
     height: 800px;
@@ -519,7 +517,6 @@ header {
     margin-top: 130px;
 }
 
-
 .imgPromo>img {
     width: 1200px;
 }
@@ -527,7 +524,6 @@ header {
 .imgPromo {
     position: relative;
 }
-
 
 .textPromo {
     position: absolute;
@@ -551,18 +547,16 @@ header {
     background-color: #231F20;
 }
 
-
-
 .topFuter {
     display: flex;
     justify-content: space-between;
 }
+
 .fourPositionPartner {
     margin-left: 85px;
     display: flex;
     justify-content: space-between;
 }
-
 
 .partner {
     max-height: 20px;
@@ -620,20 +614,22 @@ header {
     text-align: right;
 }
 
-@media screen and (max-width: 660px) {
-      
-.conteiner {
-    margin: 0 ;
-    max-width: 100%;
-    position: relative;
-  
+@media screen and (min-width: 660px) {
+    #menu__toggle {
+        display: none;
+    }
 }
+
+@media screen and (max-width: 660px) {
+    .conteiner {
+        margin: 0;
+        max-width: 100%;
+        position: relative;
+    }
     img {
         width: 100%;
     }
-   
     header {
-        
         padding-bottom: 5px;
     }
     .pass {
@@ -676,13 +672,9 @@ header {
         position: fixed;
     }
     .callMe {
-    
-            margin-top: 0;
-            margin-left: 0;
-            flex-shrink: 0;
-          
-    
-        
+        margin-top: 0;
+        margin-left: 0;
+        flex-shrink: 0;
         margin-left: -30px;
     }
     .LogoCall {
@@ -740,12 +732,10 @@ header {
         display: flex;
         flex-direction: column;
     }
-    .leftColum{
-            margin-top: -80px;
+    .leftColum {
+        margin-top: -80px;
     }
-
     .leftColum, .rightColum {
-
         justify-content: center;
     }
     .imgBilding>img {
@@ -915,7 +905,7 @@ header {
         display: block;
         position: fixed;
         visibility: hidden;
-        z-index:3;
+        z-index: 3;
         top: 0;
         left: -100%;
         width: 300px;
@@ -946,15 +936,27 @@ header {
         padding-top: 0;
         height: 100%;
     }
-    
-.rightBlockText {
-    margin-left: 0;
-}
-    .lineOr{
+    header {
+        margin-top: 0px;
+    }
+    .blockCollage {
         display: none;
     }
+    .rightBlockText {
+        margin-left: 0;
+    }
+    .lineOr {
+        display: none;
+    }
+    .tel{
+        position: absolute;
+        left: 20px;
+    }
+    .call{
+        position: absolute;
+       right: 10%;
+    }
 }
-
 
 @media screen and (max-width: 500px) {
     .firstname {
