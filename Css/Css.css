@@ -1,7 +1,8 @@
 /*
 div{
     border:1px solid red;
-}*/
+}
+*/
 
 a {
     color: black;
@@ -692,7 +693,7 @@ header {
         margin-top: -10px;
         margin-left: -15px;
         height: 2%;
-        padding-bottom: 30px
+        padding-bottom: 10px
     }
     .call {
         margin-right: -12px;
@@ -979,6 +980,10 @@ header {
         right: -235px;
         /*left: 900px;*/
     }
+  /*  .blocImgPart{
+        width: 80%;  
+        flex-wrap: wrap;
+     }*/
 }
 
 @media screen and (max-width: 500px) {
@@ -994,4 +999,42 @@ header {
     .LogoCall>img {
         display: none;
     }
+}
+
+@media screen and (max-width: 1600px) {
+    .conteiner {
+        margin: 0 8%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .conteiner {
+        margin: 0 5%;
+ 
+    }
+    .menu{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 800px) {
+   .imgPromo .imgGroupBlock{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 1100px) {
+    img{
+        width: 100%;
+    }
+    .conteiner {
+        margin: 0 1%;
+    }
+    .standartBorder{
+        flex-wrap: wrap;
+    }
+   /* .blocImgPart{
+       width: 170%;  
+       flex-wrap: wrap;
+    }*/
+   
 }
