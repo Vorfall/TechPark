@@ -1,5 +1,5 @@
 div {
-    border: 1px solid red;
+    border: 1px solid #da96daea;
 }
 
 a {
@@ -22,8 +22,6 @@ a {
     font-weight: normal;
     font-style: italic;
 }
-
-/**/
 
 @font-face {
     font-family: "PF Din Text Cond Pro";
@@ -142,10 +140,6 @@ header {
     flex-shrink: 0;
 }
 
-/**/
-
-/**/
-
 .pass {
     width: calc(100% - 715px);
     flex-shrink: 0;
@@ -220,7 +214,6 @@ header {
     flex-shrink: 0;
     position: absolute;
     right: -80px;
-    /*left: 900px;*/
 }
 
 .orang {
@@ -245,16 +238,6 @@ header {
 .rigt {
     margin-right: 40px;
 }
-
-/*
-
-
-
-/*
-.collage {
-    margin-top: 160px;
-    height: 1300px;
-}*/
 
 .contentGrayBack {
     background-color: #F9F9F9;
@@ -293,8 +276,6 @@ header {
     margin-top: 5px;
     font-size: 35px;
 }
-
-/**/
 
 .logoPrezent {
     margin-top: -27px;
@@ -581,7 +562,7 @@ header {
     margin-bottom: 25px;
 }
 
-*/ .bottomFuter {
+.bottomFuter {
     display: flex;
     justify-content: space-between;
 }
@@ -612,13 +593,48 @@ header {
     text-align: right;
 }
 
-@media screen and (min-width: 660px) {
-    #menu__toggle {
-        display: none;
+@media screen and (max-width: 1420px) {
+    .conteiner {
+        margin: 0 14%;
+        max-width: 100%;
+        position: relative;
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1280px) {
+    .conteiner {
+        margin: 0 16%;
+    }
+    .Collage {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .conteiner {
+        margin: 0 5%;
+    }
+    .Collage {
+        margin-left: 15%;
+    }
+    .blocImgPart {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .conteiner {
+        margin: 0 0;
+    }
+    .Collage {
+        margin-left: 38%;
+    }
+    .blocImgPart {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 920px) {
     .conteiner {
         margin: 0;
         max-width: 100%;
@@ -661,6 +677,7 @@ header {
         margin: 5%;
         top: -14px;
         left: -5px;
+        margin-top: 25px;
         margin-left: 15%;
         width: 20%;
         z-index: 3;
@@ -697,157 +714,6 @@ header {
         margin-right: -12px;
         display: flex;
     }
-    /*block map*/
-    .firstRowText {
-        padding-top: 2%;
-        margin-left: 10%;
-        font-size: 25px;
-    }
-    .SecondRowtext {
-        margin-left: 10%;
-        font-size: 15px;
-    }
-    .point {
-        display: none;
-    }
-    /*.logoPrezent>.blockCollage {
-        padding-top: 0px;
-    }*/
-    .map {
-        display: none;
-    }
-    .infoBox {
-        display: none;
-    }
-    .logoPrezent {
-        display: none;
-    }
-    .prezent {
-        display: none;
-    }
-    /*collage*/
-    .Collage {
-        display: flex;
-        flex-direction: column;
-    }
-    .leftColum {
-        margin-top: -80px;
-    }
-    .leftColum, .rightColum {
-        justify-content: center;
-    }
-    .imgBilding>img {
-        margin: 0 5%px;
-        margin-left: 5%;
-        margin-top: 5%;
-        width: 90%;
-    }
-    /*rectangle*/
-    .imgGroupBlock {
-        display: none;
-    }
-    /* 2 colum block*/
-    .descriptionBlock {
-        margin-left: 25px;
-    }
-    .buttonWhat {
-        margin-right: 25px;
-        margin-left: 25px;
-        width: initial;
-    }
-    .blocImgPart {
-        margin-top: 10px;
-        flex-direction: column;
-    }
-    /*footer + partner*/
-    .advantages {
-        display: none;
-    }
-    .miniHeaderName {
-        margin-top: -120px;
-        text-align: center;
-    }
-    .description {
-        margin-left: 25px;
-    }
-    .blockInfo {
-        flex-direction: column;
-        padding-bottom: 130px;
-    }
-    .imgBildingBack {
-        width: 100%;
-    }
-    .text {
-        display: none;
-        position: relative;
-    }
-    .prezentplLogo {
-        display: flex;
-        width: 100%;
-    }
-    .logoPrezent {
-        position: absolute;
-        left: 280px;
-        top: 125px;
-    }
-    .logoPrezent>img {
-        width: 70%;
-    }
-    .Butten {
-        display: none;
-    }
-    .BottomText {
-        display: none;
-    }
-    .textPromo {
-        display: none;
-    }
-    #ImgPromoWeight {
-        display: none;
-    }
-    .buttonPromo {
-        margin-top: -190px;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-        left: 0px;
-    }
-    .emailInf, .adress {
-        margin-right: 20px;
-    }
-    .topFuter>img, .logoKR>img {
-        max-width: 25%;
-    }
-    .topFuter {
-        padding-top: 20px;
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .logoKR {
-        display: none;
-    }
-    #imgPromoWith {
-        display: none;
-    }
-    .numberPlusTimeJob {
-        margin: 0 30px;
-    }
-    .fourPositionPartner {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-top: -85px;
-        /*flex-direction: column;*/
-    }
-    .information {
-        width: 100%;
-        margin-right: 15px;
-        display: flex;
-        flex-direction: column;
-    }
-    /*burger Himburger*/
     #menu__toggle {
         opacity: 0;
     }
@@ -930,6 +796,177 @@ header {
         z-index: 4;
         background-color: #ffffff;
     }
+    header {
+        margin-top: 0px;
+    }
+    .rightBlockText {
+        margin-left: 0;
+    }
+    .rigtBlock {
+        flex-shrink: 0;
+        right: 45px;
+    }
+    .standartBorder {
+        flex-shrink: 0;
+        justify-content: space-around;
+        padding: 20px;
+        display: block;
+        border: 0px solid white;
+        width: 236px;
+    }
+    .rigtBlock {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    #menu__toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .firstRowText {
+        padding-top: 2%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    .SecondRowtext {
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    .point {
+        display: none;
+    }
+    .map {
+        display: none;
+    }
+    .infoBox {
+        display: none;
+    }
+    .logoPrezent {
+        display: none;
+    }
+    .prezent {
+        display: none;
+    }
+    .Collage {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftColum {
+        margin-top: -80px;
+    }
+    .leftColum, .rightColum {
+        justify-content: center;
+    }
+    .imgBilding>img {
+        margin: 0 5%px;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+    }
+    .imgGroupBlock {
+        display: none;
+    }
+    .descriptionBlock {
+        margin-left: 25px;
+    }
+    .buttonWhat {
+        margin-right: 25px;
+        margin-left: 25px;
+        width: initial;
+    }
+    .blocImgPart {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .advantages {
+        display: none;
+    }
+    .miniHeaderName {
+        margin-top: -120px;
+        text-align: center;
+    }
+    .description {
+        margin-left: 25px;
+    }
+    .blockInfo {
+        flex-direction: column;
+        padding-bottom: 130px;
+    }
+    .imgBildingBack {
+        width: 100%;
+    }
+    .text {
+        display: none;
+        position: relative;
+    }
+    .prezentplLogo {
+        display: flex;
+        width: 100%;
+    }
+    .logoPrezent {
+        position: absolute;
+        left: 280px;
+        top: 125px;
+    }
+    .logoPrezent>img {
+        width: 70%;
+    }
+    .Butten {
+        display: none;
+    }
+    .BottomText {
+        display: none;
+    }
+    .textPromo {
+        display: none;
+    }
+    #ImgPromoWeight {
+        display: none;
+    }
+    .buttonPromo {
+        margin-top: -190px;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        left: 0px;
+    }
+    .emailInf, .adress {
+        margin-right: 20px;
+    }
+    .topFuter>img, .logoKR>img {
+        max-width: 25%;
+    }
+    .topFuter {
+        padding-top: 20px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logoKR {
+        display: none;
+    }
+    #imgPromoWith {
+        display: none;
+    }
+    .numberPlusTimeJob {
+        margin: 0 30px;
+    }
+    .fourPositionPartner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: -85px;
+    }
+    .information {
+        width: 100%;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
     .bottomBloc {
         padding-top: 0;
         height: 100%;
@@ -939,9 +976,6 @@ header {
     }
     .blockCollage {
         display: none;
-    }
-    .rightBlockText {
-        margin-left: 0;
     }
     .lineOr {
         display: none;
@@ -959,29 +993,6 @@ header {
     .menu {
         max-height: 700px;
     }
-    .rigtBlock {
-        flex-shrink: 0;
-        right: 45px;
-    }
-    .standartBorder {
-        flex-shrink: 0;
-        justify-content: space-around;
-        padding: 20px;
-        display: block;
-        border: 0px solid white;
-        width: 50px;
-    }
-    .rigtBlock {
-        display: block;
-        /* flex-shrink: 0;
-        position: absolute;
-        right: -235px;
-        /*left: 900px;*/
-    }
-    /*  .blocImgPart{
-        width: 80%;  
-        flex-wrap: wrap;
-     }*/
 }
 
 @media screen and (max-width: 500px) {
@@ -998,70 +1009,3 @@ header {
         display: none;
     }
 }
-
-@media screen and (max-width: 1600px) {
-    .conteiner {
-        margin: 0 8%;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .conteiner {
-        margin: 0 5%;
-    }
-    .menu {
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .imgPromo .imgGroupBlock {
-        display: none;
-    }
-    .menu,.line ,.numberPlusTimeJob, .infoBox {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    img {
-        width: 100%;
-    }
-    .left {
-         margin-left: 0px;
-    }
-    .conteiner {
-        margin: 0 1%;
-    }
-    .standartBorder {
-        flex-wrap: wrap;
-    }
-    .imgPromo>img, .prezentplLogo, .buttonPromo, .rightBlockText, .imgGroupBlock>img, .imgGroupBeck, .point {
-        display: none;
-    }
-}
-
-/*
-1000
-
-.imgPromo>img
-.buttonPromo
-.rightBlockText
-.imgGroupBlock>img
-.imgGroupBeck
-
-
-
-
-
-800
-
-menu
-.infoBox
-point
-.information
-
-
-
-
-*/
