@@ -1,8 +1,6 @@
-/*
-div{
-    border:1px solid red;
+div {
+    border: 1px solid red;
 }
-*/
 
 a {
     color: black;
@@ -980,7 +978,7 @@ header {
         right: -235px;
         /*left: 900px;*/
     }
-  /*  .blocImgPart{
+    /*  .blocImgPart{
         width: 80%;  
         flex-wrap: wrap;
      }*/
@@ -1010,31 +1008,60 @@ header {
 @media screen and (max-width: 1300px) {
     .conteiner {
         margin: 0 5%;
- 
     }
-    .menu{
+    .menu {
         flex-wrap: wrap;
     }
 }
+
 @media screen and (max-width: 800px) {
-   .imgPromo .imgGroupBlock{
-    display: none;
-   }
+    .imgPromo .imgGroupBlock {
+        display: none;
+    }
+    .menu,.line ,.numberPlusTimeJob, .infoBox {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1100px) {
-    img{
+    img {
         width: 100%;
+    }
+    .left {
+         margin-left: 0px;
     }
     .conteiner {
         margin: 0 1%;
     }
-    .standartBorder{
+    .standartBorder {
         flex-wrap: wrap;
     }
-   /* .blocImgPart{
-       width: 170%;  
-       flex-wrap: wrap;
-    }*/
-   
+    .imgPromo>img, .prezentplLogo, .buttonPromo, .rightBlockText, .imgGroupBlock>img, .imgGroupBeck, .point {
+        display: none;
+    }
 }
+
+/*
+1000
+
+.imgPromo>img
+.buttonPromo
+.rightBlockText
+.imgGroupBlock>img
+.imgGroupBeck
+
+
+
+
+
+800
+
+menu
+.infoBox
+point
+.information
+
+
+
+
+*/
