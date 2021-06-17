@@ -629,7 +629,6 @@ header {
     .blockInfo {
         margin-left: 50px;
     }
- 
     .information {
         margin-left: 200px;
     }
@@ -645,7 +644,6 @@ header {
     .conteiner {
         margin: 0 7%;
     }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -766,6 +764,7 @@ header {
         margin-top: 0px;
     }
     .rightBlockText {
+        display: flex;
         margin-left: -90px;
     }
     .rigtBlock {
@@ -830,7 +829,7 @@ header {
         display: block;
     }
     .imgBildingBack {
-        margin-left: -75px;
+        margin-left: -45px;
         max-width: 120%;
     }
     .pass {
@@ -871,13 +870,12 @@ header {
         width: 100%;
     }
     .square {
-        
         width: 350px;
     }
-    .promo, .logoKR{
+    .promo, .logoKR {
         display: none;
     }
-    .bottomBloc{
+    .bottomBloc {
         padding-top: 50px;
         height: 400px;
     }
@@ -895,7 +893,6 @@ header {
     .call {
         display: none;
     }
-
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -907,182 +904,182 @@ header {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 @media screen and (max-width: 600px) {
-.tel{
-    display: none;
-}
-img{
-    width: 100%;
-}
-.firstRowText {
-    padding-top: 2%;
-    margin-left: 10%;
-    font-size: 25px;
-}
-.SecondRowtext {
-    margin-left: 10%;
-    font-size: 15px;
-}
-.point {
-    display: none;
-}
-.map {
-    display: none;
-}
-.infoBox {
-    display: none;
-}
-.logoPrezent {
-    display: none;
-}
-.prezent {
-    display: none;
-}
-.Collage {
-    display: flex;
-    flex-direction: column;
-}
-.leftColum {
-    margin-top: -80px;
-}
-.leftColum, .rightColum {
-    justify-content: center;
-}
-.imgBilding>img {
-    margin: 0 5%px;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 90%;
-}
-.imgGroupBlock {
-    display: none;
-}
-.information {
-    margin-left: 0px;
-}
-.descriptionBlock {
-    margin-left: 25px;
-}
-.buttonWhat {
-    margin-right: 25px;
-    margin-left: 25px;
-    width: initial;
-}
-.blocImgPart {
-    margin-top: 10px;
-    margin-left: 0px;
-    flex-direction: column;
-}
-.advantages {
-    display: none;
-}
-.miniHeaderName {
-    margin-top: -120px;
-    text-align: center;
-}
-.description {
-    margin-left: 25px;
-}
-.blockInfo {
-    flex-direction: column;
-    padding-bottom: 130px;
-}
-.imgBildingBack {
-    width: 100%;
-}
-.text {
-    display: none;
-    position: relative;
-}
-.prezentplLogo {
-    display: flex;
-    width: 100%;
-}
-.logoPrezent {
-    position: absolute;
-    left: 280px;
-    top: 125px;
-}
-.logoPrezent>img {
-    width: 70%;
-}
-.Butten {
-    display: none;
-}
-.BottomText {
-    display: none;
-}
-.textPromo {
-    display: none;
-}
-#ImgPromoWeight {
-    display: none;
-}
-.buttonPromo {
-    margin-top: -190px;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    left: 0px;
-}
-.emailInf, .adress {
-    margin-right: 20px;
-}
-.topFuter>img, .logoKR>img {
-    max-width: 25%;
-}
-.topFuter {
-    padding-top: 20px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.logoKR {
-    display: none;
-}
-#imgPromoWith {
-    display: none;
-}
-.numberPlusTimeJob {
-    margin: 0 30px;
-}
-.fourPositionPartner {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    margin-top: -85px;
-}
-.information {
-    width: 100%;
-    margin-right: 15px;
-    display: flex;
-    flex-direction: column;
-}
-.bottomBloc {
-    padding-top: 0;
-    height: 100%;
-}
-header {
-    margin-top: 0px;
-}
-.blockCollage {
-    display: none;
-}
-.lineOr {
-    display: none;
-}
-.call {
-    position: absolute;
-    right: 10%;
-}
-.left {
-    margin-left: 0px;
-}
-.rigt {
-    margin-right: 00px;
-}
-.menu {
-    max-height: 700px;
-}
+    .tel {
+        display: none;
+    }
+    img {
+        width: 100%;
+    }
+    .firstRowText {
+        padding-top: 2%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    .SecondRowtext {
+        margin-left: 10%;
+        font-size: 15px;
+    }
+    .point {
+        display: none;
+    }
+    .map {
+        display: none;
+    }
+    .infoBox {
+        display: none;
+    }
+    .logoPrezent {
+        display: none;
+    }
+    .prezent {
+        display: none;
+    }
+    .Collage {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftColum {
+        margin-top: -80px;
+    }
+    .leftColum, .rightColum {
+        justify-content: center;
+    }
+    .imgBilding>img {
+        margin: 0 5%px;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+    }
+    .imgGroupBlock {
+        display: none;
+    }
+    .information {
+        margin-left: 0px;
+    }
+   
+    .buttonWhat {
+        margin-right: 0;
+        margin-left: 45px;
+        width: initial;
+    }
+    .blocImgPart {
+        margin-top: 10px;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .advantages {
+        display: none;
+    }
+    .miniHeaderName {
+        margin-top: -120px;
+        text-align: center;
+    }
+    .description {
+        margin-left: 25px;
+    }
+    .blockInfo {
+        flex-direction: column;
+        padding-bottom: 130px;
+    }
+
+    .text {
+        display: none;
+        position: relative;
+    }
+    .prezentplLogo {
+        display: flex;
+        width: 100%;
+    }
+    .logoPrezent {
+        position: absolute;
+        left: 280px;
+        top: 125px;
+    }
+    .logoPrezent>img {
+        width: 70%;
+    }
+    .Butten {
+        display: none;
+    }
+    .BottomText {
+        display: none;
+    }
+    .textPromo {
+        display: none;
+    }
+    #ImgPromoWeight {
+        display: none;
+    }
+    .buttonPromo {
+        margin-top: -190px;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        left: 0px;
+    }
+    .emailInf, .adress {
+        margin-right: 20px;
+    }
+    .topFuter>img, .logoKR>img {
+        max-width: 25%;
+    }
+    .topFuter {
+        padding-top: 20px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .logoKR {
+        display: none;
+    }
+    #imgPromoWith {
+        display: none;
+    }
+    .numberPlusTimeJob {
+        margin: 0 30px;
+    }
+    .fourPositionPartner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: -85px;
+    }
+    .information {
+        width: 100%;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomBloc {
+        padding-top: 0;
+        height: 100%;
+    }
+    header {
+        margin-top: 0px;
+    }
+    .blockCollage {
+        display: none;
+    }
+    .lineOr {
+        display: none;
+    }
+    .call {
+        position: absolute;
+        right: 10%;
+    }
+    .left {
+        margin-left: 0px;
+    }
+    .rigt {
+        margin-right: 00px;
+    }
+    .menu {
+        max-height: 700px;
+    }
+    .square {
+        width: 100%;
+    }
 }
