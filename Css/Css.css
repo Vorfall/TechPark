@@ -1,9 +1,7 @@
-div {
-
-
-
-    border: 2px groove  #da96daea;      
+/*div {
+    border: 2px groove #da96daea;
 }
+*/
 
 a {
     color: black;
@@ -607,13 +605,10 @@ header {
     }
     .blocImgPart {
         margin-left: 220px;
-        
     }
-    .information{
-        margin-left: 310px; 
+    .information {
+        margin-left: 310px;
     }
-   
-    
 }
 
 @media screen and (max-width: 1280px) {
@@ -623,7 +618,7 @@ header {
     .Collage {
         margin-left: 10%;
     }
-    .promo{
+    .promo {
         margin-left: 60px;
     }
 }
@@ -644,7 +639,6 @@ header {
     .conteiner {
         margin: 0 0;
         margin-left: 60px;
-
     }
     .Collage {
         margin-left: 38%;
@@ -652,7 +646,7 @@ header {
     .blocImgPart {
         margin-left: 35%;
     }
-    .promo{
+    .promo {
         margin-left: 60px;
     }
 }
@@ -667,7 +661,7 @@ header {
         width: 100%;
     }
     header {
-        padding-bottom: 5px;
+        margin-bottom: -50px;
     }
     .pass {
         margin: -2%;
@@ -688,8 +682,8 @@ header {
         text-align: right;
         margin: 5%;
         position: fixed;
-        left: 60%;
-        top: -5%;
+        left: 65%;
+        top: -12%;
         margin-top: 9%;
         font-weight: 700;
         font-size: 130%;
@@ -837,8 +831,48 @@ header {
         border: 0px solid white;
         width: 236px;
     }
-    .rigtBlock {
+    /* .rigtBlock {
         display: block;
+    }*/
+    /**********************************************************/
+    .prezentplLogo {
+        left: 75%;
+    }
+    .point5 {}
+    .imgGroupBlock>img {
+        max-width: 100%;
+    }
+    .imgGroupBeck {
+        max-width: 100%;
+    }
+    .blockInfo {
+        display: block;
+    }
+    .imgPromo>img {
+        max-width: 80%;
+    }
+    .buttonPromo {
+        left: 15px;
+    }
+    .topFuter {
+        flex-wrap: wrap;
+    }
+    .imgBildingBack {
+        margin-left: -100px;
+    }
+    .map {
+        left: 0%;
+        /*    top: 0px;*/
+    }
+    .imgGroupBeck {
+        margin-left: 0px;
+    }
+    /**********************************************************/
+}
+
+@media screen and (max-width: 750px) {
+    .point, .infoBox {
+        display: none;
     }
 }
 
@@ -905,6 +939,7 @@ header {
     }
     .blocImgPart {
         margin-top: 10px;
+        margin-left: 0px;
         flex-direction: column;
     }
     .advantages {
