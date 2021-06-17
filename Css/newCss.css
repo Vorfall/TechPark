@@ -371,7 +371,6 @@ header {
 .Collage {
     margin-top: 80px;
     display: flex;
-    /*justify-content: center;*/
 }
 
 .imgBilding {
@@ -490,7 +489,6 @@ header {
 .blocImgPart {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
 }
 
 .promo {
@@ -629,11 +627,9 @@ header {
         margin: 0 14%;
     }
     .blockInfo {
-        margin-left: 170px;
+        margin-left: 50px;
     }
-    .blocImgPart {
-        margin-left: 220px;
-    }
+ 
     .information {
         margin-left: 200px;
     }
@@ -649,9 +645,7 @@ header {
     .conteiner {
         margin: 0 7%;
     }
-    .blocImgPart {
-        margin-left: 250px;
-    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -659,7 +653,7 @@ header {
         margin: 0 2%;
     }
     .blocImgPart {
-        margin-left: 280px;
+        margin-left: 0;
     }
 }
 
@@ -817,6 +811,7 @@ header {
         max-width: 100%;
     }
     .blockInfo {
+        padding-bottom: 50px;
         display: block;
     }
     .blocImgPart {
@@ -835,8 +830,8 @@ header {
         display: block;
     }
     .imgBildingBack {
-        margin-left: -125px;
-        max-width: 100%;
+        margin-left: -75px;
+        max-width: 120%;
     }
     .pass {
         margin: -2%;
@@ -852,6 +847,7 @@ header {
     .imgGroupBeck {
         margin-top: 240px;
         margin-left: 0px;
+        height: 300px;
         margin-right: 0px;
         max-width: 100%;
     }
@@ -859,7 +855,7 @@ header {
         padding-top: 60px;
     }
     .advantages {
-        height: 900px;
+        height: 650px;
     }
     .buttomBlock {
         margin-top: 370px;
@@ -867,8 +863,23 @@ header {
     .SecondRowtext {
         font-size: 25px;
     }
-    .fourPositionPartner{
+    .fourPositionPartner {
         flex-wrap: wrap;
+    }
+    .blocImgPart {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .square {
+        
+        width: 350px;
+    }
+    .promo, .logoKR{
+        display: none;
+    }
+    .bottomBloc{
+        padding-top: 50px;
+        height: 400px;
     }
 }
 
@@ -884,9 +895,7 @@ header {
     .call {
         display: none;
     }
-    /*.leftBlock {
-        margin-left: 70px;
-    }*/
+
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -898,3 +907,182 @@ header {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+.tel{
+    display: none;
+}
+img{
+    width: 100%;
+}
+.firstRowText {
+    padding-top: 2%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.SecondRowtext {
+    margin-left: 10%;
+    font-size: 15px;
+}
+.point {
+    display: none;
+}
+.map {
+    display: none;
+}
+.infoBox {
+    display: none;
+}
+.logoPrezent {
+    display: none;
+}
+.prezent {
+    display: none;
+}
+.Collage {
+    display: flex;
+    flex-direction: column;
+}
+.leftColum {
+    margin-top: -80px;
+}
+.leftColum, .rightColum {
+    justify-content: center;
+}
+.imgBilding>img {
+    margin: 0 5%px;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+}
+.imgGroupBlock {
+    display: none;
+}
+.information {
+    margin-left: 0px;
+}
+.descriptionBlock {
+    margin-left: 25px;
+}
+.buttonWhat {
+    margin-right: 25px;
+    margin-left: 25px;
+    width: initial;
+}
+.blocImgPart {
+    margin-top: 10px;
+    margin-left: 0px;
+    flex-direction: column;
+}
+.advantages {
+    display: none;
+}
+.miniHeaderName {
+    margin-top: -120px;
+    text-align: center;
+}
+.description {
+    margin-left: 25px;
+}
+.blockInfo {
+    flex-direction: column;
+    padding-bottom: 130px;
+}
+.imgBildingBack {
+    width: 100%;
+}
+.text {
+    display: none;
+    position: relative;
+}
+.prezentplLogo {
+    display: flex;
+    width: 100%;
+}
+.logoPrezent {
+    position: absolute;
+    left: 280px;
+    top: 125px;
+}
+.logoPrezent>img {
+    width: 70%;
+}
+.Butten {
+    display: none;
+}
+.BottomText {
+    display: none;
+}
+.textPromo {
+    display: none;
+}
+#ImgPromoWeight {
+    display: none;
+}
+.buttonPromo {
+    margin-top: -190px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    left: 0px;
+}
+.emailInf, .adress {
+    margin-right: 20px;
+}
+.topFuter>img, .logoKR>img {
+    max-width: 25%;
+}
+.topFuter {
+    padding-top: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logoKR {
+    display: none;
+}
+#imgPromoWith {
+    display: none;
+}
+.numberPlusTimeJob {
+    margin: 0 30px;
+}
+.fourPositionPartner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: -85px;
+}
+.information {
+    width: 100%;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.bottomBloc {
+    padding-top: 0;
+    height: 100%;
+}
+header {
+    margin-top: 0px;
+}
+.blockCollage {
+    display: none;
+}
+.lineOr {
+    display: none;
+}
+.call {
+    position: absolute;
+    right: 10%;
+}
+.left {
+    margin-left: 0px;
+}
+.rigt {
+    margin-right: 00px;
+}
+.menu {
+    max-height: 700px;
+}
+}
