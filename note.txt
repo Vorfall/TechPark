@@ -1,0 +1,18 @@
+.prezentplLogo
+.point5
+.imgGroupBlock>img
+.imgGroupBeck
+.blockInfo - flex off
+.imgPromo>img
+.buttonPromo {
+.topFuter - flex-wrap: wrap;
+
+
+
+
+
+
+
+
+
+
