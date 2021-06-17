@@ -1,5 +1,8 @@
 div {
-    border: 1px solid #da96daea;
+
+
+
+    border: 2px groove  #da96daea;      
 }
 
 a {
@@ -599,6 +602,18 @@ header {
         max-width: 100%;
         position: relative;
     }
+    .blockInfo {
+        margin-left: 170px;
+    }
+    .blocImgPart {
+        margin-left: 220px;
+        
+    }
+    .information{
+        margin-left: 310px; 
+    }
+   
+    
 }
 
 @media screen and (max-width: 1280px) {
@@ -607,6 +622,9 @@ header {
     }
     .Collage {
         margin-left: 10%;
+    }
+    .promo{
+        margin-left: 60px;
     }
 }
 
@@ -618,19 +636,24 @@ header {
         margin-left: 15%;
     }
     .blocImgPart {
-        margin-left: 15%;
+        margin-left: 35%
     }
 }
 
 @media screen and (max-width: 1100px) {
     .conteiner {
         margin: 0 0;
+        margin-left: 60px;
+
     }
     .Collage {
         margin-left: 38%;
     }
     .blocImgPart {
-        margin-left: 20%;
+        margin-left: 35%;
+    }
+    .promo{
+        margin-left: 60px;
     }
 }
 
@@ -868,6 +891,9 @@ header {
     }
     .imgGroupBlock {
         display: none;
+    }
+    .information {
+        margin-left: 0px;
     }
     .descriptionBlock {
         margin-left: 25px;
