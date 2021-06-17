@@ -683,7 +683,7 @@ header {
 
 @media screen and (max-width: 920px) {
     .conteiner {
-        margin: 0 1%;
+        margin: 0 3%;
     }
     /*******************************/
     #menu__toggle {
@@ -772,7 +772,7 @@ header {
         margin-top: 0px;
     }
     .rightBlockText {
-        margin-left: 0;
+        margin-left: -90px;
     }
     .rigtBlock {
         flex-shrink: 0;
@@ -792,7 +792,11 @@ header {
     /*************************************************************/
     .prezentplLogo {
         position: relative;
-        left: 0;
+        left: -10px;
+        margin-top: 35px
+    }
+    .left {
+        margin: 0;
     }
     .leftBlock {
         margin-top: 10px;
@@ -832,7 +836,7 @@ header {
     }
     .imgBildingBack {
         margin-left: -125px;
-        max-width: 100;
+        max-width: 100%;
     }
     .pass {
         margin: -2%;
@@ -849,7 +853,22 @@ header {
         margin-top: 240px;
         margin-left: 0px;
         margin-right: 0px;
-       max-width: 100%;
+        max-width: 100%;
+    }
+    .contentTextPlusPowent {
+        padding-top: 60px;
+    }
+    .advantages {
+        height: 900px;
+    }
+    .buttomBlock {
+        margin-top: 370px;
+    }
+    .SecondRowtext {
+        font-size: 25px;
+    }
+    .fourPositionPartner{
+        flex-wrap: wrap;
     }
 }
 
@@ -860,16 +879,14 @@ header {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 
 @media screen and (max-width: 800px) {
-    .conteiner {
-        margin: 0 0;
+    .call {
+        display: none;
     }
-    .call{
-        display:none;
-    }
-
+    /*.leftBlock {
+        margin-left: 70px;
+    }*/
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -881,4 +898,3 @@ header {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
