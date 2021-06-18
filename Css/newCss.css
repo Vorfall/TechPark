@@ -469,7 +469,6 @@ header {
 }
 
 .buttonWhat {
- 
     font-size: 18px;
     text-align: center;
     margin-top: 65px;
@@ -830,7 +829,7 @@ header {
     }
     .imgBildingBack {
         margin-left: -45px;
-        max-width: 120%;
+        max-width: 100%;
     }
     .pass {
         margin: -2%;
@@ -1081,5 +1080,11 @@ header {
     }
     .square {
         width: 100%;
+    }
+    .rightBlockText {
+        display: block;
+    }
+    .buttonWhat {
+        margin-left: -40px;
     }
 }
