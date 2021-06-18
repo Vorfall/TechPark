@@ -626,7 +626,7 @@ header {
         margin: 0 14%;
     }
     .blockInfo {
-        margin-left: 50px;
+     /*   margin-left: 50px;*/
     }
     .information {
         margin-left: 200px;
@@ -828,7 +828,7 @@ header {
         display: block;
     }
     .imgBildingBack {
-        margin-left: -45px;
+        /*margin-left: -45px;*/
         max-width: 100%;
     }
     .pass {
@@ -946,13 +946,16 @@ header {
         justify-content: center;
     }
     .imgBilding>img {
-        margin: 0 5%px;
-        margin-left: 5%;
+ 
+    
         margin-top: 5%;
-        width: 90%;
+  
     }
     .imgGroupBlock {
         display: none;
+    }
+    .imgBilding{
+        padding:2px;
     }
     .information {
         margin-left: 0px;
@@ -960,8 +963,7 @@ header {
    
     .buttonWhat {
         margin-right: 0;
-        margin-left: 45px;
-        width: initial;
+       max-width: 100%;
     }
     .blocImgPart {
         margin-top: 10px;
@@ -1084,7 +1086,5 @@ header {
     .rightBlockText {
         display: block;
     }
-    .buttonWhat {
-        margin-left: -40px;
-    }
+    
 }
