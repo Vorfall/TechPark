@@ -591,6 +591,51 @@ header {
     text-align: right;
 }
 
+.square {
+    width: 266px;
+    height: 233px;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    flex-direction: column;
+    /* border:1px solid red;*/
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.imgBilding {
+    position: absolute;
+
+}
+/*
+.imgBilding1 {
+    position: relative;
+}
+.textBilding{
+    bottom: 0;
+    color:white;
+}
+.imgBilding2 {
+    position: relative;
+}   
+.textBilding{
+    position: absolute;
+}
+
+.imgBilding3 {
+    position: relative;
+}
+.imgBilding4 {
+    position: relative;
+}*/
+
+.logoC {
+    justify-content: center;
+    padding-top: 30px;
+    height: 55px;
+}
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -626,7 +671,7 @@ header {
         margin: 0 14%;
     }
     .blockInfo {
-     /*   margin-left: 50px;*/
+        /*   margin-left: 50px;*/
     }
     .information {
         margin-left: 200px;
@@ -946,25 +991,21 @@ header {
         justify-content: center;
     }
     .imgBilding>img {
- 
-    
         margin-top: 5%;
-  
     }
     .imgGroupBlock {
         display: none;
     }
-    .imgBilding{
-        padding:2px;
+    .imgBilding {
+        padding: 2px;
     }
     .information {
         margin-left: 0px;
     }
-   
     .buttonWhat {
         margin-right: 0;
-       max-width: 100%;
-       width: auto;
+        max-width: 100%;
+        width: auto;
     }
     .blocImgPart {
         margin-top: 10px;
@@ -985,7 +1026,6 @@ header {
         flex-direction: column;
         padding-bottom: 130px;
     }
-
     .text {
         display: none;
         position: relative;
@@ -1087,5 +1127,4 @@ header {
     .rightBlockText {
         display: block;
     }
-    
 }
