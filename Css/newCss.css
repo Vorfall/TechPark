@@ -1105,7 +1105,7 @@ header {
 .Bilding {
     position: relative;
     width: auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 15px;
 }
 
