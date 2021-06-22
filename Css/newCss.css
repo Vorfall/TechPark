@@ -1089,3 +1089,85 @@ header {
     }
     
 }
+
+
+
+/**/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.divCont123 {
+    display: flex;
+}
+
+.Bilding {
+    position: relative;
+    width: auto;
+    border: 1px solid red;
+    margin: 15px;
+}
+
+.imgMildingBasc {
+    /* position:absolute;*/
+}
+
+.textBilding {
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    right: 192px;
+    font-size: 30px;
+    left: 40px;
+}
+
+.contentInBilding {
+    display: flex;
+}
+
+.switchPikto {
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    bottom: 41px;
+    right: 40px;
+    background-image: url(../Img/standartPiktogram.png);
+}
+
+.switchPikto:hover {
+    background-image: url(../Img/activPiktogram.png);
+}
+
+.square {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    width: 266px;
+    height: 233px;
+    flex-direction: row;
+    margin: 15px;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.blocImgPart {
+    /* display: flex;*/
+}
+
+.logoC {
+    position: absolute;
+    top: 30px;
+    height: 60px;
+    justify-content: center;
+}
+
+.textlogo {
+    position: absolute;
+    top: 105px;
+    padding: 25x;
+    text-align: center;
+    max-width: 70%;
+    padding-top: 37px;
+}
+/**/
